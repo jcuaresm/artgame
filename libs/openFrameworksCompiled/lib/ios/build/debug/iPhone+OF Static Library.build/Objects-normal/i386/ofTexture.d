@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.cpp \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.cpp \
   ../../../../libs/openFrameworks/gl/ofTexture.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
@@ -20,21 +20,21 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
   ../../../../libs/openFrameworks/math/ofQuaternion.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h \
-  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h

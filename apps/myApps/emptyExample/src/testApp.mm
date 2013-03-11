@@ -39,6 +39,7 @@ void testApp::setup(){
     mainY = ofGetHeight()/2;
     ofEnableAlphaBlending();
     ofSetFrameRate(150);
+     mySound.play(); 
     
 }
 
@@ -263,7 +264,7 @@ void testApp::touchDown(ofTouchEventArgs & touch){
     lastY = currentY;
    currentX = touch.x;
    currentY = touch.y;
-    mySound.play(); 
+   
 }
 
 //--------------------------------------------------------------
