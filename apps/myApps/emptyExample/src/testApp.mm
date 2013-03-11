@@ -20,7 +20,7 @@ void testApp::setup(){
 	
 	//ofBackground(time, time, time);
     //ofBackground(150, 150, 150);
-    ofBackgroundGradient(ofColor(255,50,150), ofColor(0,0,100));
+    ofBackgroundGradient(ofColor(255,50,150), ofColor(((0.5*sin(time/60)+0.5)*255),((0.5*cos(time/30)+0.5)*255),100));
     
     currentX = ofGetWidth()/2;
     currentY = ofGetHeight()/2;
@@ -39,7 +39,7 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     //ofBackground(time, time, time);
-    ofBackgroundGradient(ofColor(255,50,150), ofColor(0,0,100));
+    ofBackgroundGradient(ofColor(255,50,150), ofColor(((0.5*sin(time/60)+0.5)*255),((0.5*cos(time/30)+0.5)*255),100));
     
     //if (mainX != currentX)
         mainX += 0.02*(currentX-mainX);
