@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.cpp \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.cpp \
   ../../../../libs/openFrameworks/utils/ofURLFileLoader.h \
   ../../../../libs/openFrameworks/utils/ofThread.h \
   ../../../../libs/openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
@@ -31,7 +31,7 @@ dependencies: \
   ../../../../libs/poco/include/Poco/RefCountedObject.h \
   ../../../../libs/poco/include/Poco/AtomicCounter.h \
   ../../../../libs/poco/include/Poco/AutoPtr.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/FIFOEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -55,9 +55,9 @@ dependencies: \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
   ../../../../libs/poco/include/Poco/Condition.h \
   ../../../../libs/poco/include/Poco/ScopedUnlock.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofUtils.h \
   ../../../../libs/poco/include/Poco/Net/HTTPClientSession.h \
   ../../../../libs/poco/include/Poco/Net/Net.h \

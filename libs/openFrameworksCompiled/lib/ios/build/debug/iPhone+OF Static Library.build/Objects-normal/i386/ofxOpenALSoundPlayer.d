@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp \
   ../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.h \
   ../../../../addons/ofxiPhone/src/sound/SoundEngine.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundPlayer.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundPlayer.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
   ../../../../libs/openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
@@ -18,11 +18,11 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/poco/include/Poco/Mutex.h \

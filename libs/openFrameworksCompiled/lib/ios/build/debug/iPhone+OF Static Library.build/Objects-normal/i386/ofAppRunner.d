@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.cpp \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.cpp \
   ../../../../libs/openFrameworks/app/ofAppRunner.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
@@ -20,15 +20,15 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
   ../../../../libs/openFrameworks/app/ofBaseApp.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/FIFOEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -55,24 +55,24 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Delegate.h \
   ../../../../libs/poco/include/Poco/FunctionDelegate.h \
   ../../../../libs/poco/include/Poco/Expire.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
   ../../../../libs/openFrameworks/math/ofQuaternion.h \
   ../../../../libs/openFrameworks/app/ofAppBaseWindow.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.h \
   ../../../../libs/openFrameworks/sound/ofBaseSoundPlayer.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.h \
   ../../../../addons/ofxiPhone/src/sound/SoundEngine.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.h \
   ../../../../libs/openFrameworks/sound/ofBaseSoundStream.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxiPhoneSoundStream.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h \
-  /Users/imac/Downloads/of_v0-1.7.4_ios_release/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/app/ofAppiPhoneWindow.h
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxiPhoneSoundStream.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h \
+  /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/app/ofAppiPhoneWindow.h

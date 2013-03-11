@@ -41,6 +41,7 @@ class testApp : public ofxiPhoneApp{
         
         float mainX;
         float mainY;
+    
         
 };
 

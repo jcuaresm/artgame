@@ -42,11 +42,11 @@ void testApp::update(){
     ofBackgroundGradient(ofColor(255,50,150), ofColor(((0.5*sin(time/60)+0.5)*255),((0.5*cos(time/30)+0.5)*255),100));
     
     //if (mainX != currentX)
-        mainX += 0.02*(currentX-mainX);
+        mainX += 0.05*(currentX-mainX);
 
         
     
-        mainY += 0.02*(currentY-mainY);
+        mainY += 0.05*(currentY-mainY);
 }
 
 //--------------------------------------------------------------
@@ -56,11 +56,14 @@ void testApp::draw(){
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
     my_img2.draw(x,y);
     ofDisableBlendMode();
-    ofSetColor(100, 255, 100);
+    ofSetColor(((0.5*sin(time/5)+0.5)*50), ((0.5*sin(time/5)+0.5)*100), ((0.5*sin(time/5)+0.5)*255));
     ofFill();
     ofTriangle(0,0,10,10,20,0);
     
+    
+    /////// ENTITY Start
     ofPushMatrix();
+    {
         ofTranslate(mainX, mainY);
        // ofRotate(time);
     
@@ -72,35 +75,138 @@ void testApp::draw(){
         float angle = v1.angle(v2); // angle is 90
     
         ofRotate(-angle);
+    // Rotating entity 1
+    ofPushMatrix();
+    {   ofRotate((time/15)*360);
+        ofTranslate(16, 0);
+        ofCircle(0, 0, 2);
+    }
+        ofPopMatrix(); 
+    //
+    
+    // Rotating entity 2
+    ofPushMatrix();
+    {
+        ofRotate((time/12)*360);
+        ofTranslate(19, 0);
+        ofCircle(0, 0, 2);
+    }
+    ofPopMatrix();
+    //
         ofCircle(0, 0, 12);
         ofCircle(0, 0+20, 10);
         ofPushMatrix();
-            ofTranslate(0, 40);
+        {    ofTranslate(0, 40);
             ofRotate(sin(time/5)*6);
             ofCircle(0, 0, 10);
             ofPushMatrix();
-                ofTranslate(-10, 10);
+            {   ofTranslate(-10, 10);
                 ofRotate(cos(time/5)*4);
                 ofTriangle(0,0,10,10,20,0);
                 ofPushMatrix();
-                    ofTranslate(0, 10);
+                {   ofTranslate(0, 10);
                     ofRotate(sin(time/5)*10);
                     ofTriangle(0,0,10,10,20,0);
                     ofPushMatrix();
-                        ofTranslate(0, 10);
+                    {   ofTranslate(0, 10);
                         ofRotate(cos(time/5)*4);
                         ofTriangle(0,0,10,10,20,0);
                         ofPushMatrix();
-                            ofTranslate(0, 10);
+                        {   ofTranslate(0, 10);
                             ofRotate(sin(time/5)*2);
                             ofTriangle(0,0,10,40,20,0);
+                        }
                         ofPopMatrix();
-
+                    }
                     ofPopMatrix();
+                }
                 ofPopMatrix();
+            }
             ofPopMatrix();
+        }
         ofPopMatrix();
+    ////////////////// LIMB 2 - Center limb
+    ofPushMatrix();
+    ofRotate(20);
+    ofScale(-1, 1.5);
+    ofCircle(0, 0+20, 10);
+    ofPushMatrix();
+    {    ofTranslate(0, 40);
+        ofRotate(sin(time/5)*6);
+        ofCircle(0, 0, 10);
+        ofPushMatrix();
+        {   ofTranslate(-10, 10);
+            ofRotate(cos(time/5)*4);
+            ofTriangle(0,0,10,10,20,0);
+            ofPushMatrix();
+            {   ofTranslate(0, 10);
+                ofRotate(sin(time/5)*10);
+                ofTriangle(0,0,10,10,20,0);
+                ofPushMatrix();
+                {   ofTranslate(0, 10);
+                    ofRotate(cos(time/5)*4);
+                    ofTriangle(0,0,10,10,20,0);
+                    ofPushMatrix();
+                    {   ofTranslate(0, 10);
+                        ofRotate(sin(time/5)*2);
+                        ofTriangle(0,0,10,40,20,0);
+                    }
+                    ofPopMatrix();
+                }
+                ofPopMatrix();
+            }
+            ofPopMatrix();
+        }
+        ofPopMatrix();
+    }
     ofPopMatrix();
+    ofPopMatrix();
+    //////////////// END LIMB 2
+    
+    //////////////// LIMB 3
+    ofPushMatrix();
+    {
+    ofRotate(40);
+    ofCircle(0, 0+20, 10);
+    ofPushMatrix();
+    {    ofTranslate(0, 40);
+        ofRotate(sin(time/5)*6);
+        ofCircle(0, 0, 10);
+        ofPushMatrix();
+        {   ofTranslate(-10, 10);
+            ofRotate(cos(time/5)*4);
+            ofTriangle(0,0,10,10,20,0);
+            ofPushMatrix();
+            {   ofTranslate(0, 10);
+                ofRotate(sin(time/5)*10);
+                ofTriangle(0,0,10,10,20,0);
+                ofPushMatrix();
+                {   ofTranslate(0, 10);
+                    ofRotate(cos(time/5)*4);
+                    ofTriangle(0,0,10,10,20,0);
+                    ofPushMatrix();
+                    {   ofTranslate(0, 10);
+                        ofRotate(sin(time/5)*2);
+                        ofTriangle(0,0,10,40,20,0);
+                    }
+                    ofPopMatrix();
+                }
+                ofPopMatrix();
+            }
+            ofPopMatrix();
+        }
+        ofPopMatrix();
+    }
+    ofPopMatrix();
+    }
+    ofPopMatrix();
+    ////////////////// END LIMB3
+    
+    }
+    ofPopMatrix();
+    
+    
+    
     
     ofSetColor(255, 0, 0);
     ofFill();
