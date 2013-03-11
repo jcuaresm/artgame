@@ -14,6 +14,7 @@
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
 		88E8CB4716E857E9003F09D6 /* teal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88E8CB4616E857E9003F09D6 /* teal.jpg */; };
 		88E8CB4916E858AB003F09D6 /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88E8CB4816E858AB003F09D6 /* yellow.jpg */; };
+		B96F1CEF16EE430700022065 /* ofBall.mm in Sources */ = {isa = PBXBuildFile; fileRef = B96F1CEE16EE430700022065 /* ofBall.mm */; };
 		BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD10F2B2A9500518274 /* OpenGLES.framework */; };
 		BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD80F2B2AB500518274 /* QuartzCore.framework */; };
 		BB24DDCA10DA781C00E9C588 /* ofxiphone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB24DDC910DA781C00E9C588 /* ofxiphone-Info.plist */; };
@@ -57,6 +58,8 @@
 		53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		88E8CB4616E857E9003F09D6 /* teal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teal.jpg; sourceTree = "<group>"; };
 		88E8CB4816E858AB003F09D6 /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
+		B96F1CE816EE364800022065 /* ofBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofBall.h; sourceTree = "<group>"; };
+		B96F1CEE16EE430700022065 /* ofBall.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofBall.mm; sourceTree = "<group>"; };
 		BB16EBD10F2B2A9500518274 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BB16EBD80F2B2AB500518274 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BB24DDC910DA781C00E9C588 /* ofxiphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ofxiphone-Info.plist"; sourceTree = "<group>"; };
@@ -190,6 +193,8 @@
 				E4D8936B11527B74007E1F53 /* main.mm */,
 				E4D8936D11527B74007E1F53 /* testApp.mm */,
 				E4D8936C11527B74007E1F53 /* testApp.h */,
+				B96F1CE816EE364800022065 /* ofBall.h */,
+				B96F1CEE16EE430700022065 /* ofBall.mm */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -294,6 +299,7 @@
 			files = (
 				E4D8936E11527B74007E1F53 /* main.mm in Sources */,
 				E4D8936F11527B74007E1F53 /* testApp.mm in Sources */,
+				B96F1CEF16EE430700022065 /* ofBall.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

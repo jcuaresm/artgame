@@ -1,6 +1,7 @@
 #include "ofMain.h"
 #include "testApp.h"
 #include "ofAppGlutWindow.h"
+#include "ofBall.h"
 
 int main(){
     //ofAppGlutWindow window;

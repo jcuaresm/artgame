@@ -1,6 +1,9 @@
 #include "testApp.h"
 #include "math.h"
 
+#include "ofBall.h"
+
+
 //--------------------------------------------------------------
 void testApp::setup(){	
 	// initialize the accelerometer
@@ -34,6 +37,7 @@ void testApp::setup(){
     mainY = ofGetHeight()/2;
     ofEnableAlphaBlending();
     ofSetFrameRate(150);
+    
 }
 
 //--------------------------------------------------------------
@@ -47,10 +51,17 @@ void testApp::update(){
         
     
         mainY += 0.05*(currentY-mainY);
+    
+    for (int i = 0 ; i < NUMBALLS ; i++)
+    {
+        //myBall[i].update();
+    }
+    myBall.update();
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
+    //myBall.draw();
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
 	my_img.draw(0,0);
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
@@ -79,7 +90,7 @@ void testApp::draw(){
     ofPushMatrix();
     {   ofRotate((time/15)*360);
         ofTranslate(16, 0);
-        ofCircle(0, 0, 2);
+        ofCircle(0, 0, 3);
     }
         ofPopMatrix(); 
     //
@@ -109,7 +120,7 @@ void testApp::draw(){
                     ofTriangle(0,0,10,10,20,0);
                     ofPushMatrix();
                     {   ofTranslate(0, 10);
-                        ofRotate(cos(time/5)*4);
+                        ofRotate(cos(time/2)*4);
                         ofTriangle(0,0,10,10,20,0);
                         ofPushMatrix();
                         {   ofTranslate(0, 10);
@@ -148,7 +159,7 @@ void testApp::draw(){
                     ofTriangle(0,0,10,10,20,0);
                     ofPushMatrix();
                     {   ofTranslate(0, 10);
-                        ofRotate(sin(time/5)*2);
+                        ofRotate(sin(time/5)*9);
                         ofTriangle(0,0,10,40,20,0);
                     }
                     ofPopMatrix();
@@ -166,7 +177,9 @@ void testApp::draw(){
     //////////////// LIMB 3
     ofPushMatrix();
     {
+        
     ofRotate(40);
+        ofScale(-1, 1.2);
     ofCircle(0, 0+20, 10);
     ofPushMatrix();
     {    ofTranslate(0, 40);
@@ -174,7 +187,7 @@ void testApp::draw(){
         ofCircle(0, 0, 10);
         ofPushMatrix();
         {   ofTranslate(-10, 10);
-            ofRotate(cos(time/5)*4);
+            ofRotate(cos(time/3)*7);
             ofTriangle(0,0,10,10,20,0);
             ofPushMatrix();
             {   ofTranslate(0, 10);
@@ -182,11 +195,11 @@ void testApp::draw(){
                 ofTriangle(0,0,10,10,20,0);
                 ofPushMatrix();
                 {   ofTranslate(0, 10);
-                    ofRotate(cos(time/5)*4);
+                    ofRotate(cos(time/9)*10);
                     ofTriangle(0,0,10,10,20,0);
                     ofPushMatrix();
                     {   ofTranslate(0, 10);
-                        ofRotate(sin(time/5)*2);
+                        ofRotate(sin(time/5)*6);
                         ofTriangle(0,0,10,40,20,0);
                     }
                     ofPopMatrix();
@@ -210,15 +223,20 @@ void testApp::draw(){
     
     ofSetColor(255, 0, 0);
     ofFill();
-    
+    /*
     ofLine(mainX, mainY, currentX, currentY);
     ofLine(mainX, mainY, currentX, mainY);
     ofLine(currentX, mainY, currentX, currentY);
     ofLine(mainX, mainY, currentX, currentY);
+    */
     ofSetColor(255,255,255);
     
+    for (int i = 0 ; i < NUMBALLS ; i++)
+    {
+       // myBall[i].draw();
+    }
     
-    
+
     
     time = ofGetElapsedTimef()*10;
     //cout << tan(currentY-lastY/currentX-lastX);

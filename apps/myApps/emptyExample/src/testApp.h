@@ -3,6 +3,9 @@
 #include "ofMain.h"
 #include "ofxiPhone.h"
 #include "ofxiPhoneExtras.h"
+#include "ofBall.h"
+
+#define NUMBALLS 5
 
 class testApp : public ofxiPhoneApp{
 	
@@ -41,6 +44,9 @@ class testApp : public ofxiPhoneApp{
         
         float mainX;
         float mainY;
+    
+       // ofBall myBall[NUMBALLS];
+    ofBall myBall;
     
         
 };

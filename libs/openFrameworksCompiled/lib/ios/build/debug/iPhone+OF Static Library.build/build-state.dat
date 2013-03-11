@@ -6652,7 +6652,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies234d94c233eeb641^72a394c233eeb641^---0#1#0#--18"Check dependencies36"9D7C8AEA-45D0-4465-9C77-E07A03439B9A-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies123220d54beeb641^30f420d54beeb641^---0#1#0#--18"Check dependencies36"F3101A00-556C-4BA0-849C-8FC1C37A9074-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
