@@ -2203,9 +2203,15 @@ N/Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../lib
 t2
 s0
 
+<<<<<<< HEAD
 N/Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/libofxiPhone_iphonesimulator_Debug.a
 t1363013988
 s34079024
+=======
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/libofxiPhone_iphonesimulator_Debug.a
+t1362972456
+s34086200
+>>>>>>> don't worry about this
 
 N/Users/imac/Desktop/artgame/addons/ofxAccelerometer/src/ofxAccelerometer.h
 c0000000051238AF600000000000019F8
@@ -6652,10 +6658,14 @@ r0
 
 CCheck dependencies
 r0
+<<<<<<< HEAD
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies693a03ee50eeb641^4c710dee50eeb641^---0#1#0#--18"Check dependencies36"25398E3F-4036-4B98-B8BB-4D81A63BE938-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
+=======
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6e8a14ba6edb641^17f4a24ba6edb641^---0#1#0#--18"Check dependencies36"33E0FD46-9A0F-45B0-BA1E-DEBA746ED30C-
+>>>>>>> don't worry about this
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
