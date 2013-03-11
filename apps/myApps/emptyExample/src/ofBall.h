@@ -8,6 +8,8 @@
 #define MAXWIDTH  1024
 #define MAXHEIGHT 768
 
+
+
 class ofBall {
     
 public: // place public functions or variables declarations here

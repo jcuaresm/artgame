@@ -47,6 +47,7 @@ class testApp : public ofxiPhoneApp{
     
        // ofBall myBall[NUMBALLS];
     ofBall myBall;
+    ofSoundPlayer mySound;
     
         
 };

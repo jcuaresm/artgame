@@ -10,6 +10,8 @@ void testApp::setup(){
     ofSetBackgroundAuto(false);
 	ofxAccelerometer.setup();
     
+    mySound.loadSound("Renescentia.mp3");
+    
 	
     if(!my_img.loadImage("teal.jpg")){
         ofLog(OF_LOG_ERROR, "Error while loading image");
@@ -61,7 +63,8 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    //myBall.draw();
+    //ofScale(1.0*(0.5*sin(time*2.08)+0.5), 1);
+    myBall.draw();
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
 	my_img.draw(0,0);
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
@@ -260,6 +263,7 @@ void testApp::touchDown(ofTouchEventArgs & touch){
     lastY = currentY;
    currentX = touch.x;
    currentY = touch.y;
+    mySound.play(); 
 }
 
 //--------------------------------------------------------------

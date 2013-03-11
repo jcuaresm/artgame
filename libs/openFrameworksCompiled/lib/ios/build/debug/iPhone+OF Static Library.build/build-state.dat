@@ -6,8 +6,8 @@ cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-norm
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/of3dUtils.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/of3dUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofCamera.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofCamera.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEasyCam.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofEasyCam.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMesh.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofNode.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofNode.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMesh.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEvents.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFbo.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofFbo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -6652,7 +6652,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies123220d54beeb641^30f420d54beeb641^---0#1#0#--18"Check dependencies36"F3101A00-556C-4BA0-849C-8FC1C37A9074-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies693a03ee50eeb641^4c710dee50eeb641^---0#1#0#--18"Check dependencies36"25398E3F-4036-4B98-B8BB-4D81A63BE938-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
