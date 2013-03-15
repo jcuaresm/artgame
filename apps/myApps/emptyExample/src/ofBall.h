@@ -25,6 +25,11 @@ public: // place public functions or variables declarations here
     float speedX;
     int dim;      // size
     
+    int colorR;
+    int colorG;
+    int colorB;
+    
+    
     ofBall(); // constructor - used to initialize an object, if no properties are passed
     //               the program sets them to the default value
     

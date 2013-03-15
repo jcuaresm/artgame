@@ -7,13 +7,17 @@ ofBall::ofBall()
     x = ofRandom(0, MAXHEIGHT);      // give some random positioning
     y = ofRandom(0, MAXWIDTH);
     
-    //speedX = ofRandom(-5, 5);           // and random speed and direction
-    //speedY = ofRandom(-5, 5);
+    speedX = ofRandom(-3, 3);           // and random speed and direction
+    speedY = ofRandom(-3, 3);
     
-    speedX = 5;         // and random speed and direction
-    speedY = 5;
+    //speedX = 5;         // and random speed and direction
+    //speedY = 5;
     
-    dim = 20;
+    colorR = ofRandom(255);
+    colorG = ofRandom(255);
+    colorB = ofRandom(255);
+        
+    dim = ofRandom(1, 10);
 }
 
 void ofBall::update(){
@@ -39,7 +43,8 @@ void ofBall::update(){
 
 void ofBall::draw(){
     // values for R, G, B
-    ofSetColor(120,120,120);
+    
+    ofSetColor(colorR, colorG, colorB);
     ofCircle(x, y, dim);
     ofSetColor(255,255,255);
 } 

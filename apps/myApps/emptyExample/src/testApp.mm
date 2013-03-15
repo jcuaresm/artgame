@@ -1,6 +1,5 @@
 #include "testApp.h"
 #include "math.h"
-
 #include "ofBall.h"
 
 
@@ -39,7 +38,13 @@ void testApp::setup(){
     mainY = ofGetHeight()/2;
     ofEnableAlphaBlending();
     ofSetFrameRate(150);
-     mySound.play(); 
+    
+    mySound.play(); 
+    
+    countSize = 1;
+    
+    inContact = false;
+
     
 }
 
@@ -57,15 +62,94 @@ void testApp::update(){
     
     for (int i = 0 ; i < NUMBALLS ; i++)
     {
-        //myBall[i].update();
+        myBall[i].update();
+        for ( int j = 0 ; j < NUMBALLS; j++)
+        {
+            if ( j != i )
+            {
+                ofVec2f vDist(myBall[i].x-myBall[j].x, myBall[i].y-myBall[j].y);
+                float len = vDist.length(); // len is 5 (3,4,5 triangle)
+                if (len <= myBall[i].dim+myBall[j].dim)
+                {
+                    myBall[i].speedX *= -1;
+                    myBall[i].speedY *= -1;
+
+                }
+            }
+        }
+        
+        ofVec2f vDist(mainX-myBall[i].x, mainY-myBall[i].y);
+        float len = vDist.length(); // len is 5 (3,4,5 triangle)
+        if (len <= 12+myBall[i].dim +10 && myBall[i].dim != 0)
+        {
+            cout << "HIT!";
+            inContact = true;
+            contactWith = i;
+            cout << "\n";
+            cout << contactWith;
+            cout << "\n";
+       // myBall.dim = 0;
+        //myBall.speedX *= -1.5;
+       // myBall.speedY *= -1.5;
+            //ofSetColor(255-(countSize*5), 0+countSize*5, 0);
+            //ofCircle(myBall[i].x, myBall[i].y, myBall[i].dim+countSize);
+            //countSize++;
+        }
+        else {
+            //countSize = 1;
+           // inContact = false;
+        }
     }
-    myBall.update();
+    
+    //myBall.update();
+    //ofVec2f vDist(mainX-myBall.x, mainY-myBall.y);
+    //float len = vDist.length(); // len is 5 (3,4,5 triangle)
+    if (inContact)
+    {
+    
+        ofVec2f vDist2(mainX-myBall[contactWith].x, mainY-myBall[contactWith].y);
+        float len2 = vDist2.length(); 
+        if (len2 <= 12+myBall[contactWith].dim +10)
+        {
+
+        //cout << "HIT!";
+       // myBall.dim = 0;
+        //myBall.speedX *= -1.5;
+       // myBall.speedY *= -1.5;
+       ofSetColor(255-(countSize*5), 0+countSize*5, 0);
+        ofCircle(myBall[contactWith].x, myBall[contactWith].y, myBall[contactWith].dim+countSize);
+        countSize++;
+        cout << contactWith;
+        cout << "\n";
+            if (countSize >= 30)
+            {
+                myBall[contactWith].dim = 0;
+                inContact = false;
+            }
+        }
+        else 
+        {
+            inContact = false;
+        }
+        
+    }
+    else {
+        countSize = 1;
+    }
+    
+    //cout << len;
+    cout << "\n";
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
     //ofScale(1.0*(0.5*sin(time*2.08)+0.5), 1);
-    myBall.draw();
+    
+    for (int i = 0 ; i < NUMBALLS ; i++)
+    {
+        myBall[i].draw();
+    }
+    
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
 	my_img.draw(0,0);
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
@@ -244,12 +328,12 @@ void testApp::draw(){
     
     time = ofGetElapsedTimef()*10;
     //cout << tan(currentY-lastY/currentX-lastX);
-    cout << "last :" ;
+  /*  cout << "last :" ;
     cout << lastX; cout << "\t";  cout << lastY;
     cout << "\n";
     cout << "Current :" ;
     cout << currentX; cout << "\t"; cout << currentY;
-    cout << "\n\n";
+    cout << "\n\n"; */
     
 }
 

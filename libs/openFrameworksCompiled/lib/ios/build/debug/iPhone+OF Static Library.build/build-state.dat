@@ -34,8 +34,8 @@ cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-norm
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec4f.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec4f.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseTypes.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofColor.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofColor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPoint.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -56,8 +56,8 @@ cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-norm
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/app/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiOSEAGLView.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiOSEAGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneViewController.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneViewController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/SoundEngine.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/SoundEngine.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -2308,8 +2308,8 @@ t1363013988
 s34079024
 
 N/Users/imac/Desktop/artgame/addons/ofxAccelerometer/src/ofxAccelerometer.h
-c0000000051238AF600000000000019F8
-t1361283830
+c00000000513E5A0000000000000019F8
+t1363040768
 s6648
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp
@@ -3358,6 +3358,11 @@ c00000000513E5A060000000000006576
 t1363040774
 s25974
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h
+c00000000513E5A0600000000000010F0
+t1363040774
+s4336
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofNode.cpp
 c00000000513E5A06000000000000251E
 t1363040774
@@ -3368,10 +3373,20 @@ c00000000513E5A060000000000002740
 t1363040774
 s10048
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h
+c00000000513E5A06000000000000075D
+t1363040774
+s1885
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.cpp
 c00000000513E5A060000000000001ABF
 t1363040774
 s6847
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h
+c00000000513E5A060000000000001B1B
+t1363040774
+s6939
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofFbo.cpp
 c00000000513E5A060000000000006D1F
@@ -3382,6 +3397,11 @@ N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../op
 c00000000513E5A060000000000008566
 t1363040774
 s34150
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h
+c00000000513E5A0600000000000013C5
+t1363040774
+s5061
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h
 c00000000513E5A060000000000000D78
@@ -3408,6 +3428,11 @@ c00000000513E5A06000000000000869A
 t1363040774
 s34458
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.h
+c00000000513E5A06000000000000164D
+t1363040774
+s5709
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVbo.cpp
 c00000000513E5A060000000000003B04
 t1363040774
@@ -3423,30 +3448,60 @@ c00000000513E5A06000000000000A0A2
 t1363040774
 s41122
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofBitmapFont.h
+c00000000513E5A0600000000000001CA
+t1363040774
+s458
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.cpp
 c00000000513E5A0600000000000081BD
 t1363040774
 s33213
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h
+c00000000513E5A06000000000000241C
+t1363040774
+s9244
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.cpp
 c00000000513E5A060000000000008A28
 t1363040774
 s35368
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.h
+c00000000513E5A060000000000002116
+t1363040774
+s8470
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.cpp
 c00000000513E5A06000000000000491C
 t1363040774
 s18716
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.h
+c00000000513E5A060000000000001328
+t1363040774
+s4904
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.cpp
 c00000000513E5A060000000000005AF4
 t1363040774
 s23284
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h
+c00000000513E5A0600000000000013D2
+t1363040774
+s5074
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.cpp
 c00000000513E5A060000000000005DCF
 t1363040774
 s24015
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h
+c00000000513E5A060000000000001538
+t1363040774
+s5432
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTessellator.cpp
 c00000000513E5A0600000000000016E1
@@ -3462,6 +3517,11 @@ N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../op
 c00000000513E5A060000000000002356
 t1363040774
 s9046
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h
+c00000000513E5A060000000000000B46
+t1363040774
+s2886
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix3x3.cpp
 c00000000513E5A060000000000001824
@@ -3482,6 +3542,11 @@ N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../op
 c00000000513E5A0600000000000000C7
 t1363040774
 s199
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h
+c00000000513E5A06000000000000654E
+t1363040774
+s25934
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec4f.cpp
 c00000000513E5A0600000000000000E7
@@ -3518,15 +3583,30 @@ c00000000513E5A060000000000001355
 t1363040774
 s4949
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.h
+c00000000513E5A060000000000000724
+t1363040774
+s1828
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp
 c00000000513E5A060000000000000FB6
 t1363040774
 s4022
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.h
+c00000000513E5A0600000000000006DB
+t1363040774
+s1755
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp
 c00000000513E5A0600000000000014F2
 t1363040774
 s5362
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h
+c00000000513E5A060000000000003228
+t1363040774
+s12840
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofColor.cpp
 c00000000513E5A060000000000007BF2
@@ -3538,15 +3618,30 @@ c00000000513E5A060000000000000015
 t1363040774
 s21
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h
+c00000000513E5A06000000000000003D
+t1363040774
+s61
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp
 c00000000513E5A0600000000000056A1
 t1363040774
 s22177
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h
+c00000000513E5A060000000000001BEF
+t1363040774
+s7151
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h
 c00000000513E5A06000000000000104B
 t1363040774
 s4171
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h
+c00000000513E5A060000000000004076
+t1363040774
+s16502
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofFileUtils.cpp
 c00000000513E5A06000000000000A077
@@ -3557,6 +3652,11 @@ N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../op
 c00000000513E5A060000000000001C07
 t1363040774
 s7175
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h
+c00000000513E5A0600000000000015C0
+t1363040774
+s5568
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofNoise.h
 c00000000513E5A060000000000004F25
@@ -3578,20 +3678,40 @@ c00000000513E5A06000000000000178A
 t1363040774
 s6026
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.h
+c00000000513E5A0600000000000008C5
+t1363040774
+s2245
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.cpp
 c00000000513E5A060000000000004B4F
 t1363040774
 s19279
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h
+c00000000513E5A0600000000000015D5
+t1363040774
+s5589
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.cpp
 c00000000513E5A060000000000001DE0
 t1363040774
 s7648
 
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.h
+c00000000513E5A060000000000000B2F
+t1363040774
+s2863
+
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.cpp
 c00000000513E5A060000000000002A2B
 t1363040774
 s10795
+
+N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.h
+c00000000513E5A060000000000000B6E
+t1363040774
+s2926
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o
 t2
@@ -6797,7 +6917,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc823601d93eeb641^4791811d93eeb641^---0#1#0#--18"Check dependencies36"2B0B1AAB-8DD4-4C82-8834-C1913E07A213-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf5146dc3d7f2b641^58e2e5c7d7f2b641^---0#1#0#--18"Check dependencies36"6B23ADFB-7946-4FBE-9D82-A006224BE50A-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
