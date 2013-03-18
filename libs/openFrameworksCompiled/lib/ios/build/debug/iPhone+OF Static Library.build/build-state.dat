@@ -2,146 +2,72 @@ TiPhone+OF Static Library
 v5
 r1
 cCheck dependencies
-<<<<<<< HEAD
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/of3dUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/of3dUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofCamera.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofCamera.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEasyCam.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofEasyCam.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMesh.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofNode.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofNode.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEvents.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFbo.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofFbo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGLRenderer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLight.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofLight.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMaterial.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofMaterial.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofShader.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofShader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVbo.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVbo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVboMesh.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVboMesh.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofBitmapFont.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPath.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPixels.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPolyline.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTessellator.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTessellator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTrueTypeFont.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix3x3.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix3x3.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix4x4.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofQuaternion.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofQuaternion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec2f.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec2f.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec4f.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec4f.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseTypes.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofColor.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofColor.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPoint.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofRectangle.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFileUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofFileUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLog.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSystemUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofSystemUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofThread.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofThread.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofURLFileLoader.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.cpp normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofOpenALSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofOpenALSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/EAGLView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/ES1Renderer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/ES2Renderer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/app/ofAppiPhoneWindow.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiOSEAGLView.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiOSEAGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneAppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneViewController.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneViewController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/SoundEngine.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/SoundEngine.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/events/ofxiPhoneAccelerometer.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/events/ofxiPhoneAlerts.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneCoreLocation.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExternalDisplay.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneExternalDisplay.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneExtras.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneImagePicker.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneKeyboard.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneMapKit.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneMapKitDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofiPhoneVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/ofiPhoneVideoGrabber.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofiPhoneVideoPlayer.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/ofiPhoneVideoPlayer.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxiPhoneSoundStream.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/libofxiPhone_iphonesimulator_Debug.a normal i386
-=======
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxAccelerometer/src/ofxAccelerometer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/of3dUtils.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/of3dUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofCamera.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofCamera.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofNode.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofNode.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEasyCam.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofEasyCam.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMesh.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofNode.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofNode.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEvents.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFbo.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofFbo.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGLRenderer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLight.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofLight.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMaterial.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofMaterial.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofShader.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofShader.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVbo.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVbo.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVboMesh.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVboMesh.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVbo.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofVbo.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofBitmapFont.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPath.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPixels.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPolyline.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPixels.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTessellator.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTessellator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTrueTypeFont.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix3x3.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix3x3.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix4x4.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec4f.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec4f.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofQuaternion.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofQuaternion.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix4x4.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec2f.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec2f.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundStream.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundStream.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec4f.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec4f.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundStream.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofBaseSoundStream.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundStream.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseTypes.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofColor.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofColor.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPoint.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFileUtils.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofFileUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofColor.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofColor.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseTypes.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofRectangle.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLog.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFileUtils.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofFileUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSystemUtils.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofSystemUtils.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofThread.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofThread.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofURLFileLoader.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoGrabber.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.cpp" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoGrabber.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxMultiTouch/src/ofxMultiTouch.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofOpenALSoundPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofOpenALSoundPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/ES2Renderer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/EAGLView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/ES1Renderer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/gl/ES2Renderer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/app/ofAppiPhoneWindow.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneViewController.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneViewController.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiOSEAGLView.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiOSEAGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneViewController.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/core/ofxiPhoneViewController.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxOpenALSoundPlayer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/SoundEngine.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/SoundEngine.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoGrabber.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoPlayer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoPlayer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/events/ofxiPhoneAccelerometer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoGrabber.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/events/ofxiPhoneAlerts.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneCoreLocation.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExternalDisplay.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneExternalDisplay.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneExtras.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneImagePicker.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneKeyboard.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneImagePicker.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneCoreLocation.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneExtras.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneMapKit.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/utils/ofxiPhoneMapKitDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofiPhoneVideoGrabber.o" "/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/ofiPhoneVideoGrabber.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -218,7 +144,6 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c0000000050A078720000000000AB3D60
 t1352693874
 s11222368
->>>>>>> I tried to create a random number of balls at once!
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
 c000000004E7840290000000000000110
@@ -1762,296 +1687,296 @@ t1363109685
 s2926
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoGrabber.o
-t1363110290
+t1363572916
 s26572
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/AVFoundationVideoPlayer.o
-t1363110290
+t1363572916
 s152336
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/EAGLView.o
-t1363110288
+t1363572916
 s94976
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES1Renderer.o
-t1363110288
+t1363572916
 s26584
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ES2Renderer.o
-t1363110288
+t1363572916
 s29452
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/SoundEngine.o
-t1363110289
+t1363572916
 s268276
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/of3dUtils.o
-t1363110279
+t1363572916
 s141228
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppRunner.o
-t1363110279
+t1363572916
 s286236
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofAppiPhoneWindow.o
-t1363110289
+t1363572916
 s114004
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundPlayer.o
-t1363110283
+t1363572916
 s26480
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseSoundStream.o
-t1363110283
+t1363572916
 s26480
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBaseTypes.o
-t1363110284
+t1363572916
 s56108
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofBitmapFont.o
-t1363110281
+t1363572916
 s147152
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofCamera.o
-t1363110279
+t1363572916
 s132080
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofColor.o
-t1363110286
+t1363572916
 s1552892
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEasyCam.o
-t1363110279
+t1363572916
 s194700
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofEvents.o
-t1363110281
+t1363572916
 s1631520
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFbo.o
-t1363110280
+t1363572916
 s425544
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFileUtils.o
-t1363110286
+t1363572916
 s436720
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGLRenderer.o
-t1363110281
+t1363572916
 s562024
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofGraphics.o
-t1363110281
+t1363572916
 s480120
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofImage.o
-t1363110282
+t1363572916
 s598320
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLight.o
-t1363110280
+t1363572916
 s196508
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLog.o
-t1363110286
+t1363572916
 s266980
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMaterial.o
-t1363110280
+t1363572916
 s40996
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMath.o
-t1363110282
+t1363572916
 s136672
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix3x3.o
-t1363110282
+t1363572916
 s69556
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMatrix4x4.o
-t1363110283
+t1363572916
 s208892
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofMesh.o
-t1363110280
+t1363572916
 s623276
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofNode.o
-t1363110279
+t1363572916
 s136452
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofOpenALSoundPlayer.o
-t1363110288
+t1363572916
 s26480
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPath.o
-t1363110282
+t1363572916
 s499028
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPixels.o
-t1363110282
+t1363572916
 s513348
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPoint.o
-t1363110284
+t1363572916
 s26464
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofPolyline.o
-t1363110282
+t1363572916
 s410408
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofQuaternion.o
-t1363110283
+t1363572916
 s103260
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofRectangle.o
-t1363110285
+t1363572916
 s139180
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofShader.o
-t1363110280
+t1363572916
 s26448
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundPlayer.o
-t1363110284
+t1363572916
 s115432
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSoundStream.o
-t1363110284
+t1363572916
 s82384
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSystemUtils.o
-t1363110286
+t1363572916
 s33408
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTessellator.o
-t1363110282
+t1363572916
 s255412
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTexture.o
-t1363110280
+t1363572916
 s229056
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofThread.o
-t1363110286
+t1363572916
 s121224
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofTrueTypeFont.o
-t1363110283
+t1363572916
 s800632
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofURLFileLoader.o
-t1363110287
+t1363572916
 s644532
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o
-t1363110287
+t1363572916
 s317024
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVbo.o
-t1363110280
+t1363572916
 s173992
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVboMesh.o
-t1363110281
+t1363572916
 s214320
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec2f.o
-t1363110283
+t1363572916
 s41168
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVec4f.o
-t1363110283
+t1363572916
 s41200
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoGrabber.o
-t1363110287
+t1363572916
 s185828
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoPlayer.o
-t1363110288
+t1363572916
 s199828
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofiPhoneVideoGrabber.o
-t1363110292
+t1363572916
 s1820
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofiPhoneVideoPlayer.o
-t1363110293
+t1363572916
 s158504
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxAccelerometer.o
-t1363110279
+t1363572916
 s222444
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxMultiTouch.o
-t1363110288
+t1363572916
 s130448
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxOpenALSoundPlayer.o
-t1363110289
+t1363572916
 s171628
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiOSEAGLView.o
-t1363110289
+t1363572916
 s386884
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAccelerometer.o
-t1363110290
+t1363572916
 s224412
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAlerts.o
-t1363110290
+t1363572916
 s68536
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneAppDelegate.o
-t1363110289
+t1363572916
 s170336
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneCoreLocation.o
-t1363110291
+t1363572916
 s69532
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExternalDisplay.o
-t1363110291
+t1363572916
 s215196
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneExtras.o
-t1363110291
+t1363572916
 s231348
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneImagePicker.o
-t1363110292
+t1363572916
 s143724
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneKeyboard.o
-t1363110292
+t1363572916
 s124804
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKit.o
-t1363110292
+t1363572916
 s181832
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneMapKitDelegate.o
-t1363110292
+t1363572916
 s137316
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneSoundStream.o
-t1363110293
+t1363572916
 s67840
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhoneViewController.o
-t1363110289
+t1363572916
 s96728
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofxiPhone_iphonesimulator_Debug.LinkFileList
-c00000000513F6986000000000000356F
-t1363110278
+c00000000514678B4000000000000356F
+t1363572916
 s13679
 
 N/Users/AhmadAseeri/GoogleDrive/FACS 3930 W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../lib/ios/libofxiPhone_iphonesimulator_Debug.a
-t1363110294
+t1363572916
 s35532096
 
 N/Users/dmuser/Desktop/artgame/addons/ofxAccelerometer/src/ofxAccelerometer.h
@@ -5208,11 +5133,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h
 c00000000513E5A0600000000000010F0
 t1363040774
 s4336
@@ -5238,26 +5158,16 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h
-c00000000000000000000000000000000
-t2
-s0
+c00000000513E5A06000000000000075D
+t1363040774
+s1885
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofBaseApp.h
 c00000000000000000000000000000000
 t2
 s0
 
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h
-c00000000513E5A06000000000000075D
-t1363040774
-s1885
-
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5278,11 +5188,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLRenderer.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5333,11 +5238,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofTexture.h
 c00000000513E5A06000000000000164D
 t1363040774
 s5709
@@ -5368,21 +5268,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofBitmapFont.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofBitmapFont.h
 c00000000513E5A0600000000000001CA
 t1363040774
 s458
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofGraphics.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5398,21 +5288,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofImage.h
 c00000000513E5A060000000000002116
 t1363040774
 s8470
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPath.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5428,11 +5308,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h
 c00000000513E5A0600000000000013D2
 t1363040774
 s5074
@@ -5443,19 +5318,14 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h
-c00000000000000000000000000000000
-t2
-s0
+c00000000513E5A060000000000001538
+t1363040774
+s5432
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofRendererCollection.h
 c00000000000000000000000000000000
 t2
 s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPolyline.h
-c00000000513E5A060000000000001538
-t1363040774
-s5432
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofTessellator.cpp
 c00000000000000000000000000000000
@@ -5473,11 +5343,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5508,11 +5373,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec2f.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5568,11 +5428,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundPlayer.h
 c00000000513E5A060000000000000724
 t1363040774
 s1828
@@ -5583,21 +5438,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.h
 c00000000513E5A0600000000000006DB
 t1363040774
 s1755
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5623,11 +5468,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofPoint.h
 c00000000513E5A06000000000000003D
 t1363040774
 s61
@@ -5638,21 +5478,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.h
 c00000000513E5A060000000000001BEF
 t1363040774
 s7151
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5673,11 +5503,6 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5718,21 +5543,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.h
 c00000000513E5A0600000000000008C5
 t1363040774
 s2245
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h
 c00000000000000000000000000000000
 t2
 s0
@@ -5748,21 +5563,11 @@ t2
 s0
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.h
 c00000000513E5A060000000000000B2F
 t1363040774
 s2863
 
 N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoPlayer.h
 c00000000000000000000000000000000
 t2
 s0
@@ -9189,11 +8994,7 @@ r0
 
 CCheck dependencies
 r0
-<<<<<<< HEAD
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf5146dc3d7f2b641^58e2e5c7d7f2b641^---0#1#0#--18"Check dependencies36"6B23ADFB-7946-4FBE-9D82-A006224BE50A-
-=======
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies467ebdf1deefb641^f19bbef1deefb641^---0#1#0#--18"Check dependencies36"1FBC90F1-6D11-43FA-9EA3-B6934AFF485B-
->>>>>>> I tried to create a random number of balls at once!
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfcaad888b0f6b641^a0ded888b0f6b641^---0#1#0#--18"Check dependencies36"9012A718-8300-482F-93E5-8971438C5CEE-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
