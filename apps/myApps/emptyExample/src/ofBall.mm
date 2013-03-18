@@ -46,15 +46,12 @@ void ofBall::update(){
 void ofBall::draw(){
     // values for R, G, B
 //<<<<<<< HEAD
-    
+    //Playing around with the ball's shape
     ofSetColor(colorR, colorG, colorB);
     ofCircle(x, y, dim);
+    ofRect(x,y,dim, dim);
 //=======
-    ofSetColor(120,120,120);
-    //I am trying to create many balls at once!
-    for (int i =0; i < 5 ; i++) {
-      ofCircle(x + i, y + i, dim + i);
-    }
+    ofSetColor(colorR, colorG, colorB);
     
 //>>>>>>> I tried to create a random number of balls at once!
     ofSetColor(255,255,255);

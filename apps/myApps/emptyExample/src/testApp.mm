@@ -148,6 +148,7 @@ void testApp::draw(){
     for (int i = 0 ; i < NUMBALLS ; i++)
     {
         myBall[i].draw();
+        myBall[i].draw();
     }
     
     ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);

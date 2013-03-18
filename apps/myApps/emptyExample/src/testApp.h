@@ -5,6 +5,7 @@
 #include "ofxiPhoneExtras.h"
 #include "ofBall.h"
 
+
 #define NUMBALLS 50
 
 class testApp : public ofxiPhoneApp{
@@ -46,6 +47,7 @@ class testApp : public ofxiPhoneApp{
         float mainY;
     
         ofBall myBall[NUMBALLS];
+
    // ofBall myBall;
     ofSoundPlayer mySound;
     
