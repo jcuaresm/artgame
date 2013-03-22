@@ -24,14 +24,31 @@ mEntity::mEntity()
         shapesEat[i] = 2;
     }*/
     
-    for (int i = 0; i <= 5; i++)
+    /*for (int i = 0; i <= 5; i++)
     {
         shapesEat[i] = 0;
     }
     for (int i = 6; i <= 12; i++)
     {
         shapesEat[i] = 1;
-    }
+    }*/
+    
+    shapesEat[0] = 0;
+    shapesEat[1] = 1;
+    shapesEat[2] = 2;
+    shapesEat[3] = 1;
+    shapesEat[4] = 1;
+    shapesEat[5] = 0;
+    shapesEat[6] = 1;
+    shapesEat[7] = 1;
+    shapesEat[8] = 0;
+    shapesEat[9] = 0;
+    shapesEat[10] = 1;
+    shapesEat[11] = 1;
+    shapesEat[12] = 1;
+    shapesEat[13] = 2;
+    shapesEat[14] = 2;
+    
     
 }
 
@@ -77,25 +94,28 @@ void mEntity::draw(double time, double currentX, double currentY, double mainX, 
     
     ofSetColor(((0.5*sin(time/5)+0.5)*50), ((0.5*sin(time/5)+0.5)*100), ((0.5*sin(time/5)+0.5)*255));
     
+    
+    //void recursiveDraw(int depth, int MAX, int counter, int AMP);
         ofPushMatrix();
-            recursiveDraw(numEat, 6, 0, 15, numEat);
+            recursiveDraw(numEat, 6, 0, 15);
         ofPopMatrix();
         ofPushMatrix();
             ofRotate(45);
-            recursiveDraw(numEat, 6, 0, 15, numEat);
+            recursiveDraw(numEat, 6, 0, 15);
         ofPopMatrix();
         
     if (numEat > 6) {
         ofPushMatrix();
             ofRotate(90);
-            recursiveDraw(numEat-6, 12, 6, 15, numEat);
+            recursiveDraw(numEat-6, 12, 6, 15);
         ofPopMatrix();
         ofPushMatrix();
             ofRotate(135);
-            recursiveDraw(numEat-6, 12, 6, 15, numEat);
+            recursiveDraw(numEat-6, 12, 6, 15);
         ofPopMatrix();
         
     }
+    /*
     
     if (numEat > 12) {
         ofPushMatrix();
@@ -117,7 +137,7 @@ void mEntity::draw(double time, double currentX, double currentY, double mainX, 
             ofRotate(315);
             recursiveDraw(numEat-18, 6, 0, 15, numEat);
         ofPopMatrix();
-    }
+    }*/
     
     /*
     if (numEat >= 1) {
@@ -231,7 +251,7 @@ void mEntity::draw(double time, double currentX, double currentY, double mainX, 
     ofSetColor(255,255,255);
 } 
 
-void mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP, int numOfShapes)
+void mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP)
 {       if (counter >= MAX)
         {
             return;
@@ -241,11 +261,11 @@ void mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP, int numOfS
         }
         else {
             ofTranslate(0, 20);
-            if (shapesEat[MAX-counter] == 1)
+            if (shapesEat[counter] == 1)
                 ofTriangle(-10, -10, 0, 10, 10, -10);
-            else if (shapesEat[MAX-counter] == 0)
+            else if (shapesEat[counter] == 0)
                 ofCircle(0, 0, 10);
-            else if (shapesEat[MAX-counter] == 2)
+            else if (shapesEat[counter] == 2)
                 ofRect(-10, -10, 20, 20);
             ofPushMatrix();
                 if (depth <= MAX/2)
@@ -254,7 +274,7 @@ void mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP, int numOfS
                     ofRotate(cos((ofGetElapsedTimef()*10)/3)*AMP);
                 depth -= 1;
                 counter += 1;
-                recursiveDraw(depth, MAX, counter, AMP, numOfShapes);
+                recursiveDraw(depth, MAX, counter, AMP);
             ofPopMatrix();
         }
 }

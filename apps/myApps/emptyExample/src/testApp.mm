@@ -34,7 +34,7 @@ void testApp::setup(){
     ofEnableAlphaBlending();
     ofSetFrameRate(150);
     
-    //mySound.play(); 
+    mySound.play(); 
     
     countSize = 1;
     

@@ -42,8 +42,8 @@ cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-norm
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofRectangle.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofFileUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofFileUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofLog.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofThread.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofThread.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofSystemUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofSystemUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofThread.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofThread.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofURLFileLoader.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofURLFileLoader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofUtils.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.cpp normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/i386/ofVideoGrabber.o" /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/video/ofVideoGrabber.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -9094,7 +9094,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf6ec053d7af9b641^d5790c3d7af9b641^---0#1#0#--18"Check dependencies36"2BDBB10F-21B5-49FF-A284-AD2109C0E880-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa245c6681ffdb641^3621d9681ffdb641^---0#1#0#--18"Check dependencies36"3F86737A-8EF4-4363-AC56-116318C56BF0-
 
 CCompileC "../../lib/ios/build/debug/iPhone+OF Static Library.build/Objects-normal/armv7/AVFoundationVideoGrabber.o" /Users/dmuser/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/video/AVFoundationVideoGrabber.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
