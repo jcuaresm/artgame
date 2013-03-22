@@ -1,16 +1,16 @@
 dependencies: \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/sound/ofSoundStream.cpp \
   ../../../../libs/openFrameworks/sound/ofSoundStream.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofBaseTypes.h \
   ../../../../libs/openFrameworks/types/ofPoint.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/openFrameworks/types/ofRectangle.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
@@ -21,21 +21,21 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/3d/ofMesh.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofUtils.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/gl/ofGLUtils.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/graphics/ofPixels.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMatrix4x4.h \
   ../../../../libs/openFrameworks/math/ofQuaternion.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofBaseApp.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofBaseApp.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/FIFOEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -63,5 +63,5 @@ dependencies: \
   ../../../../libs/poco/include/Poco/FunctionDelegate.h \
   ../../../../libs/poco/include/Poco/Expire.h \
   ../../../../libs/openFrameworks/sound/ofBaseSoundStream.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxiPhoneSoundStream.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../../addons/ofxiPhone/src/sound/ofxiPhoneSoundStream.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/app/ofAppRunner.h

@@ -1,14 +1,14 @@
 dependencies: \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofRectangle.cpp \
   ../../../../libs/openFrameworks/types/ofRectangle.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glu/include_ios/glu.h \
   ../../../../libs/tess2/include/tesselator.h \
   ../../../../libs/openFrameworks/types/ofPoint.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
@@ -19,9 +19,9 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Types.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/AhmadAseeri/GoogleDrive/FACS\ 3930\ W/Project2/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
+  /Users/imac/Desktop/artgame/libs/openFrameworksCompiled/project/ios/../../../openFrameworks/math/ofMath.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \

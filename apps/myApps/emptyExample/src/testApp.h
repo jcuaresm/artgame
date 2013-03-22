@@ -4,6 +4,7 @@
 #include "ofxiPhone.h"
 #include "ofxiPhoneExtras.h"
 #include "ofBall.h"
+#include "mEntity.h"
 
 
 #define NUMBALLS 50
@@ -37,22 +38,18 @@ class testApp : public ofxiPhoneApp{
         int currentX;
         int currentY;
         
-        int lastX;
-        int lastY;
-        
-        int originX;
-        int originY;
-        
         float mainX;
         float mainY;
     
         ofBall myBall[NUMBALLS];
-
+        
+        mEntity myEntity;
+        
+        
    // ofBall myBall;
     ofSoundPlayer mySound;
     
         int countSize;
-        
         int contactWith;
         bool inContact;
     
