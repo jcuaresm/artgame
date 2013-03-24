@@ -97,7 +97,7 @@ void mEntity::draw(double time, double currentX, double currentY, double mainX, 
     
     //void recursiveDraw(int depth, int MAX, int counter, int AMP);
         ofPushMatrix();
-            recursiveDraw(numEat, 6, 0, 15);
+            recursiveDraw(6, 6, 0, 15);
         ofPopMatrix();
         ofPushMatrix();
             ofRotate(45);
