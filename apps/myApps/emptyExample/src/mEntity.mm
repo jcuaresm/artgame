@@ -95,9 +95,16 @@ void mEntity::draw(double time, double currentX, double currentY, double mainX, 
     ofSetColor(((0.5*sin(time/5)+0.5)*50), ((0.5*sin(time/5)+0.5)*100), ((0.5*sin(time/5)+0.5)*255));
     
     
-    //void recursiveDraw(int depth, int MAX, int counter, int AMP);
+    // void recursiveDraw(int depth, int MAX, int counter, int AMP);
+    // rules of thumb : - depth must be (numEat - actual depth)
+    //                  - (max - counter) == actual depth
+    //                  - counter iterates through objects ate, it has to be on the first index of that limb
+    //                      i.e. if current limb has 6 elements, and previous limb has 5, prev limb [0,...,4], then
+    //                            current limb [5,...,10], therefore counter = 5, MAX = 6+5 = 11
+    //                  - AMP is the amplitude i.e. how much the limb will 'wave'
+        
         ofPushMatrix();
-            recursiveDraw(6, 6, 0, 15);
+            recursiveDraw(numEat, 6, 0, 15);
         ofPopMatrix();
         ofPushMatrix();
             ofRotate(45);

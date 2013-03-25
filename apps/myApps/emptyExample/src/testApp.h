@@ -7,7 +7,7 @@
 #include "mEntity.h"
 
 
-#define NUMBALLS 50
+#define NUMBALLS 250
 
 class testApp : public ofxiPhoneApp{
 	
@@ -22,6 +22,8 @@ class testApp : public ofxiPhoneApp{
         void touchUp(ofTouchEventArgs & touch);
         void touchDoubleTap(ofTouchEventArgs & touch);
         void touchCancelled(ofTouchEventArgs & touch);
+        void playPositive();
+
 
         void lostFocus();
         void gotFocus();
@@ -47,11 +49,25 @@ class testApp : public ofxiPhoneApp{
         
         
    // ofBall myBall;
-    ofSoundPlayer mySound;
+        // Sounds
+        ofSoundPlayer mySound;
+        ofSoundPlayer ambient;
+        ofSoundPlayer ambient1;
+        ofSoundPlayer C4, C5, E4, E5, G4, G5;
+        ofSoundPlayer C4a, C5a, D3a, D4a, G4a, F5a;
+    
     
         int countSize;
         int contactWith;
         bool inContact;
+    
+        // background
+        int leagues;
+        bool bgActivate;
+    
+        int r1, g1, b1, r2, g2, b2;
+    
+    
     
         
 };

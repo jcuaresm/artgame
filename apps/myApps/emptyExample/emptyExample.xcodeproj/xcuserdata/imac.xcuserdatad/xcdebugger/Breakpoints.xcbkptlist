@@ -26,7 +26,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "287"
          endingLineNumber = "287"
-         landmarkName = "mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP, int)"
+         landmarkName = "mEntity::recursiveDraw(int depth, int MAX, int counter, int AMP)"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
