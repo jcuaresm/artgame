@@ -50,8 +50,12 @@ void ofBall::draw(double time){
 //<<<<<<< HEAD
     //Playing around with the ball's shape
     ofSetColor(((0.5*sin(time/amp)+0.5)*colorR), ((0.5*sin(time/amp)+0.5)*colorG), ((0.5*sin(time/amp)+0.5)*colorB));
-    ofCircle(x, y, dim);
-    ofRect(x,y,dim, dim);
+    ofPushMatrix();
+    ofTranslate(x, y);
+    ofRotate(amp*360);
+    ofCircle(0, 0, dim);
+    ofRect(0,0,dim, dim);
+    ofPopMatrix();
 //=======
     ofSetColor(colorR, colorG, colorB);
     

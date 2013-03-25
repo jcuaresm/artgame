@@ -189,6 +189,27 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::exit(){
 
+    ambient1.unloadSound();
+    
+    C4.unloadSound();
+    C5.unloadSound();
+    E4.unloadSound();
+    E5.unloadSound();
+    G4.unloadSound();
+    G5.unloadSound();
+    
+    //negative
+    C4a.unloadSound();
+    C5a.unloadSound();
+    F5a.unloadSound();
+    G4a.unloadSound();
+    D3a.unloadSound();
+    D4a.unloadSound();
+
+    
+    
+    
+
 }
 
 //--------------------------------------------------------------
